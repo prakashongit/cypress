@@ -43,6 +43,11 @@ GIT
       rubyzip (>= 1.0.0)
       zip-zip
 
+PATH
+  remote: ../go-cda-tools
+  specs:
+    go-cda-tools (0.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -462,6 +467,7 @@ DEPENDENCIES
   factory_girl_rails
   faker (~> 1.5.0)
   font-awesome-sass
+  go-cda-tools!
   health-data-standards!
   jasny-bootstrap-rails
   jbuilder (~> 2.0)
