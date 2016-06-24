@@ -12,6 +12,13 @@ GIT
     bootstrap_form (2.4.0)
 
 GIT
+  remote: https://github.com/projectcypress/go-cda-tools.git
+  revision: ae5168671ab6556c876e4d3b3c223b860aadf26e
+  branch: integration
+  specs:
+    go-cda-tools (0.0.0)
+
+GIT
   remote: https://github.com/projectcypress/health-data-standards.git
   revision: c913fa5780ae10e319be6f264f98db76ca9ce050
   branch: mongoid5
@@ -42,11 +49,6 @@ GIT
       mongoid (~> 5.0.0)
       rubyzip (>= 1.0.0)
       zip-zip
-
-PATH
-  remote: ../go-cda-tools
-  specs:
-    go-cda-tools (0.0.0)
 
 GEM
   remote: https://rubygems.org/
